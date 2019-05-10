@@ -5,8 +5,10 @@ import java.util.Map;
 public class Bill {
     private Customer customer;
     private Map<Product, Integer> products;
+    private Delivery delivery;
 
-    public Bill(Customer customer) {
+    public Bill(Delivery delivery) {
+        this.delivery = delivery;
         this.customer = customer;
     }
 
