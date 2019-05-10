@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ae2cef-d8ec-430c-8adc-f3d2db233ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Writer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="254">
+              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#207#225#0" expanded="true" />
@@ -33,18 +40,16 @@
                 <element signature="e#556#557#0" expanded="true" />
                 <element signature="e#675#676#0" expanded="true" />
                 <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -57,10 +62,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,26 +94,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="495">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
               <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ExpressDeliveryTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state relative-caret-position="285">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,11 +128,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#127#128#0" expanded="true" />
                 <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,11 +143,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="315">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
               <folding>
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,28 +158,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,9 +172,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,17 +206,18 @@
         <option value="$PROJECT_DIR$/src/com/ocr/chak/Main.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/TakeAwayDeliveryTest.java" />
-        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ExpressDeliveryTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Writer.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java" />
       </list>
     </option>
   </component>
@@ -243,17 +256,6 @@
               <item name="HomeShop2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chak" type="462c0819:PsiDirectoryNode" />
-              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop2" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeShop2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeShop2" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="homeshop" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -300,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.ocr.chak.Main" />
       <module name="HomeShop2" />
@@ -311,6 +313,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BillTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeShop2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.chak.homeshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.chak.homeshop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.chak.homeshop.BillTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeShop2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.chak.homeshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.chak.homeshop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.chak.homeshop.BillTest" />
+      <option name="METHOD_NAME" value="Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RelayDeliveryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeShop2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.chak.homeshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.chak.homeshop" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.chak.homeshop.RelayDeliveryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" />
+        <item itemvalue="JUnit.BillTest" />
+        <item itemvalue="JUnit.RelayDeliveryTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES" />
@@ -361,15 +416,36 @@
       <option name="project" value="LOCAL" />
       <updated>1557496193225</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit the tests on Bill">
+      <created>1557508399947</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557508399947</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="RelayDeliveryTest - 2019.05.10 at 19h 16m 04s.xml">
+      <configuration name="RelayDeliveryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BillTest - 2019.05.10 at 19h 21m 47s.xml">
+      <configuration name="BillTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BillTest - 2019.05.10 at 19h 33m 26s.xml">
+      <configuration name="BillTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BillTest_Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber - 2019.05.10 at 19h 34m 40s.xml">
+      <configuration name="BillTest.Given_2productsAndDelivery_When_generatingBill_Then_getGoodLineNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4924406" visible="true" weight="0.2716115" />
-      <window_info id="Structure" order="1" sideWeight="0.5075594" side_tool="true" visible="true" weight="0.2716115" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6601124" visible="true" weight="0.18356457" />
+      <window_info id="Structure" order="1" sideWeight="0.33988765" side_tool="true" visible="true" weight="0.18356457" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -378,7 +454,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.23110151" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -402,7 +478,8 @@
     <MESSAGE value="Added 2 new classes(child class) to the homeshop and exemples with the garage" />
     <MESSAGE value="Commit tests for the Delivery service" />
     <MESSAGE value="Commit the Delivery service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit the Delivery service" />
+    <MESSAGE value="Commit the tests on Bill" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit the tests on Bill" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ProductTest.java" />
@@ -545,7 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/Taxi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -572,64 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ExpressDeliveryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -654,8 +676,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#207#225#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -666,35 +795,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="495">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#207#225#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
           </folding>
         </state>
       </provider>
