@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70ae2cef-d8ec-430c-8adc-f3d2db233ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Fridge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Television.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Paris/Bus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Paris/MoyenDeLocomotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Paris/Parisien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Paris/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Aliment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Aliment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Four.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Four.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Resistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Resistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/exemples/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,39 +30,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/Parisien.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Fridge.java">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/MoyenDeLocomotion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+              <folding>
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Television.java">
+        <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
               <folding>
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +136,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -80,8 +149,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ProductTest.java" />
-        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Product.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/exemples/Main1.java" />
@@ -92,10 +159,24 @@
         <option value="$PROJECT_DIR$/src/com/ocr/chak/exemples/Aliment.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/exemples/Four.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/exemples/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Fridge.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Television.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/Paris/MoyenDeLocomotion.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/Paris/Bus.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/Paris/Taxi.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/Paris/Parisien.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/TakeAwayDeliveryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" />
       </list>
     </option>
   </component>
@@ -136,6 +217,17 @@
               <item name="chak" type="462c0819:PsiDirectoryNode" />
               <item name="homeshop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HomeShop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop2" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,8 +249,15 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.ocr.chak.homeshop" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ocr.chak" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/ocr/chak" />
+      <recent name="$PROJECT_DIR$/src/com/ocr/chak/homeshop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +274,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.chak.exemples.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.chak.Main" />
       <module name="HomeShop2" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -186,7 +285,7 @@
     </configuration>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_INTERFACES,SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -213,30 +312,38 @@
       <option name="project" value="LOCAL" />
       <updated>1557338775548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added 2 new classes(child class) to the homeshop and exemples with the garage">
+      <created>1557476899952</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557476899952</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49568033" visible="true" weight="0.26840982" />
-      <window_info id="Structure" order="1" sideWeight="0.50431967" side_tool="true" visible="true" weight="0.26840982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49460045" visible="true" weight="0.26840982" />
+      <window_info id="Structure" order="1" sideWeight="0.5053996" side_tool="true" visible="true" weight="0.26840982" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32937366" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,7 +357,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Here it begins" />
     <MESSAGE value="Added getCustomer getProducts and addProduct methods to the Bill class, the constructor Customer and Product" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added getCustomer getProducts and addProduct methods to the Bill class, the constructor Customer and Product" />
+    <MESSAGE value="Added 2 new classes(child class) to the homeshop and exemples with the garage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 new classes(child class) to the homeshop and exemples with the garage" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ProductTest.java" />
@@ -285,22 +393,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#490#491#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/exemples/Aliment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -312,13 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -347,24 +432,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/exemples/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Fridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Television.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/garage/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+        <state relative-caret-position="255">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#249#257#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
             <element signature="e#938#939#0" expanded="true" />
             <element signature="e#975#976#0" expanded="true" />
@@ -379,59 +507,146 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/garage/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1379#1380#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1438#1439#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/Bus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/Parisien.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/Taxi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="81" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/Paris/MoyenDeLocomotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/ProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Fridge.java">
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/TakeAwayDeliveryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/Television.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
           <folding>
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
