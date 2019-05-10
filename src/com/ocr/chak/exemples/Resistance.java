@@ -1,4 +1,4 @@
-package com.ocr.chak.miam;
+package com.ocr.chak.exemples;
 
 public class Resistance {
 }

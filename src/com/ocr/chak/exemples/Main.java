@@ -1,11 +1,11 @@
-package com.ocr.chak.miam;
+package com.ocr.chak.exemples;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        com.ocr.chak.miam.Four grandFour = new com.ocr.chak.miam.Four();
-        grandFour.capacite = 55;
+        Four grandFour = new Four();
+        grandFour.getCapacite() = 55;
         grandFour.puissance = 260;
 
         com.ocr.chak.miam.Aliment cake = new com.ocr.chak.miam.Aliment();
