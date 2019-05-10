@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70ae2cef-d8ec-430c-8adc-f3d2db233ed3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Bill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/DirectDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/RelayDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/chak/homeshop/TakeAwayDelivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/BillTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/chak/homeshop/RelayDeliveryTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="70ae2cef-d8ec-430c-8adc-f3d2db233ed3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#224#225#0" expanded="true" />
@@ -110,17 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ExpressDelivery.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/NoProductInBillException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -423,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557508399947</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="the bill is almost done">
+      <created>1557510317626</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1557510317626</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -479,7 +468,8 @@
     <MESSAGE value="Commit tests for the Delivery service" />
     <MESSAGE value="Commit the Delivery service" />
     <MESSAGE value="Commit the tests on Bill" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit the tests on Bill" />
+    <MESSAGE value="the bill is almost done" />
+    <option name="LAST_COMMIT_MESSAGE" value="the bill is almost done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/ProductTest.java" />
@@ -797,8 +787,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/FileWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#224#225#0" expanded="true" />
@@ -806,6 +796,13 @@
             <element signature="e#454#455#0" expanded="true" />
             <element signature="e#489#490#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/chak/homeshop/NoProductInBillException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
